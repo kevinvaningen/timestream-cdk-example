@@ -6,7 +6,7 @@ This repo and the blog covers:
 
 * Base database creation
 * Base table creation
-* The table to database lifecylce dependency
+* The table to database lifecycle dependency
 * Table data retention options
 * Table and database removal policies.
 
