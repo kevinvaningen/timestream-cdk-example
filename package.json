@@ -1,0 +1,34 @@
+{
+  "name": "cdk-timestream",
+  "version": "1.0.0",
+  "bin": {
+    "cdk": "bin/cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "deploy": "cdk deploy --require-approval=never",
+    "diff": "cdk diff",
+    "synth": "cdk synth",
+    "cdk": "cdk",
+    "redeploy": "npm run build && npm run synth && npm run deploy"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.89.0",
+    "@types/jest": "26.0.19",
+    "@types/node": "14.14.14",
+    "aws-cdk": "1.89.0",
+    "jest": "26.6.3",
+    "ts-jest": "26.4.4",
+    "ts-node": "9.1.1",
+    "typescript": "4.1.3"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-logs": "1.89.0",
+    "@aws-cdk/aws-timestream": "1.89.0",
+    "@aws-cdk/core": "1.89.0",
+    "@aws-cdk/region-info": "1.89.0",
+    "source-map-support": "0.5.19"
+  }
+}
